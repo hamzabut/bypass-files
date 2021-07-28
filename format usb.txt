@@ -1,0 +1,8 @@
+run cmd
+diskpart
+list disk
+slect disk 3
+clean
+create partition primary
+format fs=fat32 quick
+exit
